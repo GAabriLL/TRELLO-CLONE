@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?=Manrope&family=Nunito+Sans:wght@700&family=Nunito:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@500&display=swap');
+
+body
+{
+    margin: 0;
+    padding: 0;
+    background-color: #fafafa;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.container
+{
+    width: 935px;
+    display: grid;
+    grid-template-columns: 370px;
+    column-gap: 1.2rem;
+    margin: 0 auto;
+    margin-top: -20px;
+	justify-content: center;
+}
+
+.cs-logo
+{
+    padding: 10px;
+    margin-bottom: 10px;
+    text-align: justify;
+    margin-left: 50px;
+    margin-top: 10px;
+    width: auto;
+}
+
+.login--h1
+{
+    font-family: 'Nunito', sans-serif;
+    color: #172B4D;
+}
+
+.p-login
+{
+	display: flex;
+	justify-content: center;
+
+	margin-top: 40px;
+	margin-bottom: -53px;
+	color: initial;
+}
+
+.div-p
+{
+    display: flex;
+    justify-content: center;
+    margin-top: -30px;
+    margin-bottom: 30px;
+}
+
+.form form
+{
+	margin-top: 20%;
+    text-align: center;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 10px;
+    background-color: #FFFFFF;
+	border-radius: 10px;
+    padding: 1.25rem 2.5rem;
+}
+
+.logo
+{
+    margin-bottom: 30px;
+}
+
+input
+{
+    color: #7A869A;
+    border: 2px solid #DFE1E6;
+    background-color: #FAFBFB;
+    font-size: 0.875rem;
+
+    height: 2.25rem;
+    width: 100%;
+
+    box-sizing: border-box;
+	border-radius: 4px;
+    
+    margin-bottom: 0.25rem;
+    margin-top: 0.40rem;
+    padding: 0 0.5rem;
+    
+    transition: 0.5s;
+}
+
+input:focus
+{
+    transition: 0.5s;
+    box-shadow: 0 0 0 0;
+    border: 2px solid #0365FF; 
+    outline: 0
+}
+
+.buton-log-in
+{
+    cursor: pointer;
+    color: #ffff;
+    font-weight: bold;
+    appearance: none;
+    height: 40px;
+	width: 100%;
+    border: 0;
+    border-radius: 4px;
+    background-color: #0053cf;
+	margin-top: 10px;
+    transition: 0.5s;
+}
+
+.buton-log-in:hover
+{
+    transition: 0.5s;
+    background-color: #0365FF;
+}
+
+.button-google
+{
+   	display: flex;
+    cursor: pointer;
+
+    background-color: #FFFFFF;
+    box-shadow: rgba(0, 0, 0, 0.2) 1px 1px 5px 0px;
+    border-radius: 4px;
+    
+    margin-top: -10px;    
+    border-style: none;
+	align-items: center;
+	padding: 10px;
+
+
+	height: 40px;
+	width: 100%;
+}
+
+.button-google:hover
+{
+    background-color: #FAFBFB;
+}
+
+.span001
+{
+    align-items: center;
+	margin-left: 10px;
+	width: 25px;
+}
+
+.p-continue-continue
+{
+    display: flex;
+    font-size: 15px;
+    margin-left: 15%;
+    margin-right: 10px;
+}
+
+
+.separator
+{
+    font-size: 0.8125rem;
+    color: #172B4D;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 1rem 0 1.625rem;
+}
+
+.signup
+{
+    display: flex;
+    justify-content: center;
+}
+
+.get-app
+{
+    display: flex;
+    justify-content: center;
+}
